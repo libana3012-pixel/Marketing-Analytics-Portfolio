@@ -1,8 +1,8 @@
 # Results: marketing performance (fictional exercise)
 
-The source is eight synthetic campaign/month rows from May and June 2026. All currency values are illustrative CU and the revenue field is **attributed revenue**, not proven incremental sales.
+The source is eight synthetic campaign/month rows from February and March 2026. All currency values are illustrative CU and the revenue field is **attributed revenue**, not proven incremental sales.
 
-| Measure | May | June |
+| Measure | February | March |
 | --- | ---: | ---: |
 | Spend | 1,800 CU | 1,970 CU |
 | Impressions | 113,000 | 121,500 |
@@ -15,7 +15,7 @@ The source is eight synthetic campaign/month rows from May and June 2026. All cu
 | Cost per conversion | 11.25 CU | 11.01 CU |
 
 ## How to explain it
-June has more conversions and a modestly lower cost per conversion despite higher spend. This is the kind of relationship worth investigating rather than reporting clicks alone.
+March has more conversions and a modestly lower cost per conversion despite higher spend. This is the kind of relationship worth investigating rather than reporting clicks alone.
 
 ## What this does *not* prove
 The exercise does not include margin, returns, attribution windows, customer overlap or a control group. Attributed revenue is not profit, and an association is not a causal marketing lift.
