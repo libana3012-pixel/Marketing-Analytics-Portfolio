@@ -1,6 +1,6 @@
 # Website measurement | February–March 2026 learning chapter
 
-**Reading order:** [Overview](README.md) → [Why the method was chosen](EXPLAINED.md) → [Source data](data/website-kpis.csv) → [Code](analyze.py) → [Event plan](MEASUREMENT-PLAN.md) → [Portfolio home](../../README.md).
+**Reading order:** [Data fields and worked calculations](DATA-GUIDE.md) · [Overview](README.md) → [Why the method was chosen](EXPLAINED.md) → [Source data](data/website-kpis.csv) → [Code](analyze.py) → [Event plan](MEASUREMENT-PLAN.md) → [Portfolio home](../../README.md).
 
 
 [← Portfolio home](../../README.md) · [Why each step was chosen](EXPLAINED.md)
