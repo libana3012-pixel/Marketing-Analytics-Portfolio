@@ -5,7 +5,7 @@
 A marketing manager sees clicks rising. Did the campaigns produce more business value too? This small case looks at spend, clicks, conversions and attributed revenue together rather than judging a campaign by traffic alone.
 
 ## Start here
-1. Read `data/campaigns.csv`: eight made-up campaign/month records from May and June 2026.
+1. Read `data/campaigns.csv`: eight made-up campaign/month records from February and March 2026.
 2. Run `python3 projects/01-campaign-performance/analyze.py` from the portfolio root. No extra packages needed.
 3. Compare the result with `RESULTS.md`.
 4. Try changing one row and rerunning the program.
