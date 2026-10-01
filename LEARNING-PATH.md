@@ -17,8 +17,8 @@ These public cases are reconstructed with **synthetic examples**, not a claim th
 
 Focus shifted towards understanding the data behind the reports: SQL, relational schemas, customer and sales analysis, Python checks and analytical reproducibility.
 
-- [Customer sales / SQL](https://github.com/libana3012-pixel/customer-sales-analysis-sql)
-- [Sales revenue / SQL](https://github.com/libana3012-pixel/sales-revenue-analysis-sql)
+- [Customer sales / SQL](https://github.com/libana3012-pixel/Customer-Sales-Analysis)
+- [Sales revenue / SQL](https://github.com/libana3012-pixel/Sales-Revenue-Analysis)
 - Further technical work: Python, cohort analysis and data validation, documented in the [public Data Analytics portfolio](https://github.com/libana3012-pixel/data-analytics-portfolio-public).
 
 Power BI, Power Query, DAX and Microsoft Fabric are part of the developing technical track, and will only be presented as completed skills once supported by implemented, tested work.
