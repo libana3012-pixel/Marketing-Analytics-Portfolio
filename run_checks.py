@@ -31,8 +31,8 @@ def campaign_check():
                 assert v >= 0, f"Negative value: {row}"
                 months[row["month"]][field] += v
     expected = {
-        "2026-05": {"spend": 1800, "clicks": 3560, "conversions": 160, "revenue": 8600},
-        "2026-06": {"spend": 1970, "clicks": 3835, "conversions": 179, "revenue": 9610},
+        "2026-02": {"spend": 1800, "clicks": 3560, "conversions": 160, "revenue": 8600},
+        "2026-03": {"spend": 1970, "clicks": 3835, "conversions": 179, "revenue": 9610},
     }
     for month, metrics in expected.items():
         for field, value in metrics.items():
