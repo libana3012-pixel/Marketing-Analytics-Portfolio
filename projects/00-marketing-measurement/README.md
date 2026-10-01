@@ -1,4 +1,6 @@
 # Website measurement | February–March 2026 learning chapter
+
+[← Portfolio home](../../README.md) · [Why each step was chosen](EXPLAINED.md)
 **GA4 · GTM measurement planning · SEO · Excel-style KPI analysis**
 
 The starting point is a common marketing question: people are visiting a website, but what should we measure before calling its digital activity successful?
