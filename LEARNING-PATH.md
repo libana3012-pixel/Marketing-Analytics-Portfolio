@@ -19,7 +19,7 @@ Focus shifted towards understanding the data behind the reports: SQL, relational
 
 - [Customer sales / SQL](https://github.com/libana3012-pixel/customer-sales-analysis-sql)
 - [Sales revenue / SQL](https://github.com/libana3012-pixel/sales-revenue-analysis-sql)
-- Extended private working portfolio: Python, cohort analysis, data validation and NOBIMU business reporting.
+- Further technical work: Python, cohort analysis and data validation, documented in the [public Data Analytics portfolio](https://github.com/libana3012-pixel/data-analytics-portfolio-public).
 
 Power BI, Power Query, DAX and Microsoft Fabric are part of the developing technical track, and will only be presented as completed skills once supported by implemented, tested work.
 
