@@ -29,4 +29,4 @@ Everything uses Python 3's standard library. The source datasets are stored next
 ## The continuation
 The marketing chapter closes on 31 March. For the April–October technical continuation, read the [learning path](LEARNING-PATH.md), the separate [customer SQL case](https://github.com/libana3012-pixel/customer-sales-analysis-sql) or [revenue SQL case](https://github.com/libana3012-pixel/sales-revenue-analysis-sql).
 
-**Privacy:** This public repository excludes employer exports and NOBIMU business-specific data.
+**Source scope:** All case-study inputs here are synthetic examples, not live company exports.
