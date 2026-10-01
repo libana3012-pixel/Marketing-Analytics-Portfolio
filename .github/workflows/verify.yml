@@ -1,0 +1,31 @@
+name: Verify marketing case studies
+
+on:
+  push:
+    paths:
+      - 'projects/**'
+      - 'run_checks.py'
+      - '.github/workflows/verify.yml'
+  pull_request:
+    paths:
+      - 'projects/**'
+      - 'run_checks.py'
+      - '.github/workflows/verify.yml'
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check sample figures
+        run: python3 run_checks.py
+      - name: Run every analysis
+        run: |
+          python3 projects/00-marketing-measurement/analyze.py
+          python3 projects/01-campaign-performance/analyze.py
+          python3 projects/02-organic-search/analyze.py
