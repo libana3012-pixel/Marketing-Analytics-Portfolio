@@ -1,9 +1,9 @@
 month,channel,campaign,spend,impressions,clicks,conversions,revenue
-2026-05,Search,Brand,400,20000,1200,72,3600
-2026-05,Search,Non-brand,700,35000,1050,42,2520
-2026-05,Social,Prospecting,600,50000,750,18,1080
-2026-05,Email,Newsletter,100,8000,560,28,1400
-2026-06,Search,Brand,450,22000,1320,79,3950
-2026-06,Search,Non-brand,750,37000,1110,45,2700
-2026-06,Social,Prospecting,650,54000,810,21,1260
-2026-06,Email,Newsletter,120,8500,595,34,1700
+2026-02,Search,Brand,400,20000,1200,72,3600
+2026-02,Search,Non-brand,700,35000,1050,42,2520
+2026-02,Social,Prospecting,600,50000,750,18,1080
+2026-02,Email,Newsletter,100,8000,560,28,1400
+2026-03,Search,Brand,450,22000,1320,79,3950
+2026-03,Search,Non-brand,750,37000,1110,45,2700
+2026-03,Social,Prospecting,650,54000,810,21,1260
+2026-03,Email,Newsletter,120,8500,595,34,1700
