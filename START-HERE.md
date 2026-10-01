@@ -27,6 +27,6 @@ python3 run_checks.py
 Everything uses Python 3's standard library. The source datasets are stored next to the corresponding scripts. The cross-project checks recalculate a small set of headline metrics rather than certifying a real marketing system.
 
 ## The continuation
-The marketing chapter closes on 31 March. For the April–October technical continuation, read the [learning path](LEARNING-PATH.md), the separate [customer SQL case](https://github.com/libana3012-pixel/customer-sales-analysis-sql) or [revenue SQL case](https://github.com/libana3012-pixel/sales-revenue-analysis-sql).
+The marketing chapter closes on 31 March. For the April–October technical continuation, read the [learning path](LEARNING-PATH.md), the separate [customer SQL case](https://github.com/libana3012-pixel/Customer-Sales-Analysis) or [revenue SQL case](https://github.com/libana3012-pixel/Sales-Revenue-Analysis).
 
 **Source scope:** All case-study inputs here are synthetic examples, not live company exports.
