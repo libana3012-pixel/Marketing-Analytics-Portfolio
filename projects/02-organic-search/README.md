@@ -1,5 +1,7 @@
 # Organic search performance | A small SEO review
 
+[← Portfolio home](../../README.md) · [Why each step was chosen](EXPLAINED.md)
+
 **Marketing Analytics · Search Console concepts · CSV · Python**
 
 ## Business question
