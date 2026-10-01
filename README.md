@@ -1,62 +1,62 @@
-# Liban Yusuf | Marketing & Data Analytics
-### From measuring digital performance to investigating the data behind it
+# Liban Yusuf | Marketing Analytics
+### February — 31 March 2026 · Marketing measurement, performance and reporting
 
-I have a bachelor's degree in Marketing and Sales Management and practical experience with digital analytics and reporting. Marketing questions came first: who are we reaching, what happens after a visit, and which metrics are useful to a decision-maker? In **March 2026**, I began building a more technical data-analysis practice around SQL and Python. This portfolio connects those two areas rather than presenting them as unrelated tool collections.
+**GA4 · GTM concepts · SEO · Excel · Campaign KPIs · Python for simple checks**
 
-The material here is self-contained and uses **synthetic practice data**. Data dates are not publication dates, and a completed exercise does not imply commercial client outcomes. Business-specific work, including NOBIMU, remains in a separate private workspace.
+My background is in Marketing and Sales Management, with practical experience in digital analytics and reporting. This portfolio presents the **marketing-focused chapter** of my learning and professional interests: deciding what to measure, examining campaigns and explaining results in language a business can use.
 
-## Pick a question
+The February–March label describes the **learning chapter**, not a backdated GitHub publication record. The public examples below use **newly prepared, synthetic datasets** inspired by typical marketing questions; they are not old exports or claimed client results. All commits retain their actual dates.
 
-| Chapter | Business question | Tools and evidence |
-| --- | --- | --- |
-| [00 · Website measurement](projects/00-marketing-measurement/) | What should a marketing analyst measure before reporting success? | GA4/GTM-style event design, SEO and Excel-style KPI logic; synthetic specification |
-| [01 · Campaign performance](projects/01-campaign-performance/) | Did more spend produce stronger measured outcomes? | Python, CSV, campaign KPI calculations and results |
-| [02 · Customer behaviour](projects/02-customer-behaviour/) | Who buys again, once, or never? | SQLite, SQL joins, segmentation and data checks |
-| [03 · Revenue analysis](projects/03-revenue-analysis/) | Why does sales value move when order count does not? | SQL, revenue measures, quality checks and findings |
+## About me
+I'm Liban Yusuf, based in Oslo. I enjoy connecting commercial questions with useful measurements: what audiences do, what changes between periods, and what a report can — and cannot — tell us. This marketing foundation led naturally into more technical data-analysis work after March 2026.
 
-**Sample figures, not employer performance:** the campaign exercise moves from 160 to 179 conversions; the customer sample has four repeat purchasers among seven purchasers; the sales sample contains 12 orders worth 2,020 fictional currency units (CU).
+## Two marketing cases
 
-## About the analyst
+| Study | The question | Tools | Where to start |
+| --- | --- | --- | --- |
+| [00 / Website measurement](projects/00-marketing-measurement/) | Before calling a website successful, what should we actually track? | GA4 and GTM measurement planning, SEO, Excel-style KPI logic, a small Python check | [Plain-language guide](projects/00-marketing-measurement/README.md) |
+| [01 / Campaign performance](projects/01-campaign-performance/) | Does increased spend come with stronger measured outcomes? | Campaign CSV, Python, CTR, conversions, cost per conversion, ROAS | [Results and method](projects/01-campaign-performance/RESULTS.md) |
 
-My starting point is commercial understanding: a website visit, campaign click or purchase is only meaningful once its definition and context are clear. I use SQL and Python to examine the underlying records, check a result and explain it in plain language. I want the reader to see both the calculation and the judgement around it — including what cannot be concluded.
+## Campaign example at a glance
+| Synthetic measurement | February sample | March sample |
+| --- | ---: | ---: |
+| Spend | 1,800 CU | 1,970 CU |
+| Clicks | 3,560 | 3,835 |
+| Conversions | 160 | 179 |
+| Attributed revenue | 8,600 CU | 9,610 CU |
+| ROAS | 4.78 | 4.88 |
 
-## How the disciplines connect
+CU means fictional currency units. Attributed revenue is not the same as profit or proven incremental return. These are example outputs from the included dataset, not real performance from February or March.
 
+## My approach
+1. Start with the business question, not a chart.
+2. Define audience, reporting window and useful KPIs.
+3. Identify which tool supplies each measure (GA4, GTM, Search Console, Excel).
+4. Check source quality, calculate carefully and avoid mixing users, sessions and events.
+5. Explain one useful finding and its limits.
+
+## Repository structure
 ```text
-Marketing question
-    → measurement plan (GA4 / GTM, SEO, Excel)
-    → campaign performance (Python)
-    → customers and purchases (SQL)
-    → validation and interpretation
-    → management reporting (Power BI: in development)
+projects/
+  00-marketing-measurement/   event plan, fictional web KPIs, analysis
+  01-campaign-performance/   campaign data, Python script, results
+run_checks.py                 source-level checks for campaign example
+LEARNING-PATH.md              transition after 31 March
+README.md                     project overview
 ```
 
-## Tools, with honest status
-
-| Area | Tools | Evidence and current depth |
-| --- | --- | --- |
-| Digital measurement | GA4, GTM, SEO | Professional experience; public fictional measurement exercise |
-| Reporting and preparation | Excel, KPI definitions | Professional reporting background; documented analytical measures |
-| Querying data | SQL, SQLite | Reproducible customer/revenue analyses and source checks |
-| Programming | Python, CSV, standard library | Campaign calculation and cross-project verification scripts |
-| Business intelligence | Power BI, Power Query, DAX | Learning and report-design stage; no finished PBIX claimed here |
-| Data platforms | Microsoft Fabric | Next area of study; no deployment claimed |
-| Working practice | Git/GitHub | Versioned projects and reproducibility checks |
-
-## Learning path, not a fabricated commit timeline
-
-Earlier work centred on marketing measurement, GA4, SEO and reporting. Beginning in **March 2026**, the learning focus expanded to SQL and Python and then to applying technical methods to commercial questions. The case studies here document that *development in subject matter*, not a claim that these particular files were published on historical dates. [See the progression and next experiments](LEARNING-PATH.md).
-
-## Reproduce the analyses
-
-Requires Python 3 and SQLite. From the root of this repository:
-
+Run the practice examples with Python 3:
 ```bash
+python3 projects/00-marketing-measurement/analyze.py
 python3 projects/01-campaign-performance/analyze.py
 python3 run_checks.py
 ```
 
-Each chapter has its own README, source data, methods, findings and limitations. Start with the question, inspect the code only when you want to see how the answer was produced.
+## What came next: Data Analytics | April–October 2026
+The next learning chapter develops relational SQL, customer and sales analysis, Python, data quality and BI. Those cases belong in the **Data Analytics** portfolio rather than extending the marketing chapter past 31 March:
+- [Customer analysis / SQL](https://github.com/libana3012-pixel/customer-sales-analysis-sql)
+- [Revenue analysis / SQL](https://github.com/libana3012-pixel/sales-revenue-analysis-sql)
 
----
-*Making data useful for business decisions.*
+Power BI, DAX, Power Query and Microsoft Fabric are skills under development; no unverified platform build or certification is described here as complete. Business-specific NOBIMU materials are kept private pending publication permission.
+
+*Business questions first. Traceable numbers. Clear decisions.*
