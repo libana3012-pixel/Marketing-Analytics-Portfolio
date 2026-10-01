@@ -85,7 +85,7 @@ python3 run_checks.py
 
 After the marketing-focused chapter, I concentrated on SQL, Python, data modelling, quality checks and reporting. You can inspect my separate public [customer analysis](https://github.com/libana3012-pixel/customer-sales-analysis-sql) and [revenue analysis](https://github.com/libana3012-pixel/sales-revenue-analysis-sql) repositories, or read the [learning path](LEARNING-PATH.md).
 
-Power BI, DAX, Power Query and Fabric are part of continued development. I will add verified implementations and certifications when complete. NOBIMU company-specific reporting stays in a separate private workspace pending publication permission.
+Power BI, DAX, Power Query and Fabric are part of continued development. I will add verified implementations and certifications when complete.
 
 ---
 *Business questions first. Traceable numbers. Clear decisions.*
