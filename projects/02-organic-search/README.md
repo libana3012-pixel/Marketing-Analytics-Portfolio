@@ -1,5 +1,8 @@
 # Organic search performance | A small SEO review
 
+**Reading order:** [Overview](README.md) → [Why the method was chosen](EXPLAINED.md) → [Source data](data/search-performance.csv) → [Code](analyze.py) → [Findings](FINDINGS.md) → [Portfolio home](../../README.md).
+
+
 [← Portfolio home](../../README.md) · [Why each step was chosen](EXPLAINED.md)
 
 **Marketing Analytics · Search Console concepts · CSV · Python**
