@@ -1,4 +1,6 @@
 # Marketing performance: traffic is not the whole story
+
+[← Portfolio home](../../README.md) · [Why each step was chosen](EXPLAINED.md)
 **Python · CSV · KPI interpretation · Synthetic data**
 
 ## The question
