@@ -1,6 +1,6 @@
 # Marketing performance: traffic is not the whole story
 
-**Reading order:** [Overview](README.md) → [Why the method was chosen](EXPLAINED.md) → [Source data](data/campaigns.csv) → [Code](analyze.py) → [Results](RESULTS.md) → [Portfolio home](../../README.md).
+**Reading order:** [Data fields and worked calculations](DATA-GUIDE.md) · [Overview](README.md) → [Why the method was chosen](EXPLAINED.md) → [Source data](data/campaigns.csv) → [Code](analyze.py) → [Results](RESULTS.md) → [Portfolio home](../../README.md).
 
 
 [← Portfolio home](../../README.md) · [Why each step was chosen](EXPLAINED.md)
