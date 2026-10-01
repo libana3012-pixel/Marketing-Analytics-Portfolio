@@ -1,5 +1,7 @@
 # Liban Yusuf | Marketing Analytics
 
+[How the work was carried out, with tools and calculations](WORKFLOW.md)
+
 [![Verify marketing case studies](https://github.com/libana3012-pixel/marketing-analytics-portfolio/actions/workflows/verify.yml/badge.svg)](https://github.com/libana3012-pixel/marketing-analytics-portfolio/actions/workflows/verify.yml)
 ### Website measurement · Campaign performance · Organic search
 
