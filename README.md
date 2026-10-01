@@ -1,6 +1,8 @@
 # Liban Yusuf | Marketing Analytics
 ### Website measurement · Campaign performance · Organic search
 
+[Start here: a five-minute tour](START-HERE.md)
+
 **Portfolio chapter: February – 31 March 2026**  
 **Focus:** GA4 · GTM concepts · SEO / Search Console · Excel-style reporting · Python
 
