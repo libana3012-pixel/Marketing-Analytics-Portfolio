@@ -5,7 +5,7 @@
 [![Verify marketing case studies](https://github.com/libana3012-pixel/marketing-analytics-portfolio/actions/workflows/verify.yml/badge.svg)](https://github.com/libana3012-pixel/marketing-analytics-portfolio/actions/workflows/verify.yml)
 ### Website measurement · Campaign performance · Organic search
 
-[Start here: a five-minute tour](START-HERE.md)
+[Start here: a five-minute tour](START-HERE.md) · [Workflow and tool choices](WORKFLOW.md)
 
 **Portfolio chapter: February – 31 March 2026**  
 **Focus:** GA4 · GTM concepts · SEO / Search Console · Excel-style reporting · Python
@@ -85,7 +85,7 @@ python3 run_checks.py
 
 ## The next chapter | Data Analytics, April–October 2026
 
-After the marketing-focused chapter, I concentrated on SQL, Python, data modelling, quality checks and reporting. You can inspect my separate public [customer analysis](https://github.com/libana3012-pixel/customer-sales-analysis-sql) and [revenue analysis](https://github.com/libana3012-pixel/sales-revenue-analysis-sql) repositories, or read the [learning path](LEARNING-PATH.md).
+After the marketing-focused chapter, I concentrated on SQL, Python, data modelling, quality checks and reporting. You can inspect my separate public [customer analysis](https://github.com/libana3012-pixel/Customer-Sales-Analysis) and [revenue analysis](https://github.com/libana3012-pixel/Sales-Revenue-Analysis) repositories, or read the [learning path](LEARNING-PATH.md).
 
 Power BI, DAX, Power Query and Fabric are part of continued development. I will add verified implementations and certifications when complete.
 
